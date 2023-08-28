@@ -1,0 +1,33 @@
+.hey{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: right;
+    background-color: rgb(200, 150, 200);
+}
+li{
+    display: inline-block;
+    padding: 30px;
+}
+p.para::first-letter{
+    font-weight: bolder;
+    color: rgb(255, 0 , 0);
+}
+.h{
+    display: none;
+    position: absolute;
+}
+.hey li:hover{
+    background-color: rgb(0, 30, 80);
+}
+.hey li:hover .h ul li{
+    display: block;
+    position: absolute;
+}
+.hey .active{
+    background-color: aqua;
+}
+.hey ul li a{
+    text-decoration: none;
+    color: white;
+}
